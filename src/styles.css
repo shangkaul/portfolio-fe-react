@@ -10,6 +10,9 @@ html{
     background-color: black;
     padding: 1rem;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top:0;
 }
 
 .navHead{
@@ -17,7 +20,7 @@ html{
     color:white;
     font-family: Nunito;
     padding: 2rem 3%;
-    font-size: 1.2rem;
+    font-size: 1rem;
 
 }
 .navHead:hover{
@@ -28,4 +31,117 @@ color: var(--color-primary);
 }
 .navHead:visited{
     text-decoration: none;
+}
+.Home{
+    margin:0;
+    padding-top:15vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+
+.homeContainer{
+    padding: 3rem;
+    padding-bottom: 10%;
+    min-height: 70%;
+   font-family: Nunito;
+   color: white;
+   margin-left: 10%;
+   max-width:800px;
+   font-size: 2.5rem;
+
+}
+.introContainer{
+    overflow: hidden;
+    background-color: white;
+    padding: 4rem;
+}
+.introImg{
+    display: inline;
+    float: left;
+    margin: 2rem;
+    padding: 0;
+    
+}
+.introImg img{
+    display: none;
+    max-height: 300px;
+    border: 0.3rem solid var(--color-primary);
+    border-radius: 1.2rem;
+}
+.introBtn{
+   
+    font-size: 1.5rem;
+    max-width: 80%;
+    overflow: hidden;
+    font-weight: 400;
+    margin-top: 4rem;
+
+    margin-left:10% ;
+    
+}
+.introBtn p{
+    
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:grey;
+    text-align: left;
+}
+
+.btn{
+    background-color: var(--color-primary);
+    border: 0;
+    border-radius: 0.25rem;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    margin: 1rem;
+    width:30%;
+    
+}
+.btn_bar{
+    text-align:center;
+}
+@media screen and (max-width : 768px)
+{
+    .Home{
+        margin:0;
+        padding-top:8vh;
+        background-color: black;
+        overflow: hidden;
+    }
+.homeContainer{
+    padding: 3rem;
+    padding-bottom: 10%;
+    height: 100%;
+   font-family: Nunito;
+   color: white;
+   margin-left: 10%;
+   max-width:300px;
+   font-size: 1rem;
+}
+.introContainer{
+    overflow: hidden;
+    background-color: white;
+    padding: 2rem;
+}
+.introImg{
+    display: none;
+}
+.introBtn{
+    display: block;
+    font-size: 1rem;
+    max-width: 90%;
+    overflow: hidden;
+    font-weight: 400;
+    margin-top: 0;
+    margin-left:5% ;
+    
+}
+.introBtn p{
+    
+    font-size: 0.8rem;
+    font-weight: 400;
+    color:grey;
+}
 }
