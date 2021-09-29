@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+:root {
+    --color-text: black;
+    --color-primary: #00d679;
+}
+html{
+    width: 100%;
+}
+.Nav{
+    background-color: black;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.navHead{
+    display: inline;
+    color:white;
+    font-family: Nunito;
+    padding: 2rem 3%;
+    font-size: 1.2rem;
+
+}
+.navHead:hover{
+color: var(--color-primary);
+}
+.navHead:link{
+    text-decoration: none;
+}
+.navHead:visited{
+    text-decoration: none;
+}
