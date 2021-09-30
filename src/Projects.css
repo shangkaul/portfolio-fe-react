@@ -9,14 +9,15 @@ html{
 
 .Projects{
     margin:auto;
-    max-width: 600px;
+    max-width: 700px;
     margin-top: 10rem;
     text-align: center;
+    margin-bottom: 8rem;
 }
 .card{
     border:1px solid green;
     background-color: #1f242c;
-    width: 250px;
+    width: 300px;
     text-align: center;
     border-radius: 1.2rem;
     display: inline-block;

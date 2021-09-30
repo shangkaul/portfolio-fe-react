@@ -80,6 +80,7 @@ color: var(--color-primary);
     margin-left:10% ;
     
 }
+
 .introBtn p{
     
     font-size: 1.2rem;
@@ -101,6 +102,7 @@ color: var(--color-primary);
 }
 .btn_bar{
     text-align:center;
+    margin-bottom: 8rem;
 }
 @media screen and (max-width : 768px)
 {

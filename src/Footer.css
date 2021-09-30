@@ -1,14 +1,15 @@
 .Footer{
 background-color: black;
-position: absolute;
-padding: 1rem 0;
+position: fixed;
+bottom: 0;
+padding: 0;
 color: white;
 width: 100%;
 margin-top: 2rem;
 }
 
 .left{
-    padding: 1rem;
+    padding: 0.5rem;
     float: left;
     display: inline;
 
@@ -17,6 +18,6 @@ margin-top: 2rem;
 .right{
     float: right;
     display: inline;
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 2rem;
 }

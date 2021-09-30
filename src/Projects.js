@@ -5,7 +5,22 @@ export default function Projects()
 
     var proj=[
         {
-            head:"Travel App",
+            head:"CLI Quiz - Bike",
+            link:"https://replit.com/@shangkaul/Quiz-CLI?embed=1&output=1",
+            git:"https://github.com/shangkaul/CLI_test_app"
+    },
+    {
+        head:"CLI Quiz - Trivia",
+        link:"https://replit.com/@shangkaul/Quiz-CLI2?embed=1&output=1",
+        git:"https://github.com/shangkaul/CLI_test_app"
+},
+{
+    head:"Emoji Finder",
+    link:"https://csb-2nqfw.netlify.app/",
+    git:"https://github.com/shangkaul/Emoji-react"
+},
+        {
+            head:"Travel Recommender",
             link:"https://travelreact.netlify.app/",
             git:"https://github.com/shangkaul/Travel-barebones-react"
     },
