@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+:root {
+    --color-text: black;
+    --color-primary: #00d679;
+}
+html{
+    width: 100%;
+}
+
+.Blogs{
+    margin:auto;
+    max-width: 900px;
+    margin-top: 10rem;
+    text-align: center;
+}
+.card{
+    border:1px solid green;
+    background-color: #1f242c;
+    width: 250px;
+    text-align: center;
+    border-radius: 1.2rem;
+    display: inline-block;
+    margin:0.5rem
+}
+.cardWork{
+    border:1px solid green;
+    background-color: #1f242c;
+    width: 100%;
+    text-align: center;
+    border-radius: 1.2rem;
+    display: inline-block;
+    margin:0.5rem
+}
+.cardHead{
+    font-family: Nunito;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+.btnBar{
+    display: inline-block;
+    padding:2rem 0 ;
+}
+.btnBlog{
+    background-color: var(--color-primary);
+    border: 0;
+    border-radius: 0.25rem;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    width: 150px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.cardContent{
+    color: white;
+    text-align: left;
+    padding:1rem 3rem;
+}
+.cardDate{
+    color: white;
+    padding:0.5rem;
+}
